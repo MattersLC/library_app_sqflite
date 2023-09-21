@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "flutter_library_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "RedmiNote",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "b44d251"
+        },
+        {
+            "name": "android_phone",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "android_tablet",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5556"
+        },
+        {
+            "name": "flutter_library_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "All Devices",
+            "configurations": ["RedmiNote","android_tablet", "android_phone"]
+        },
+        {
+            "name": "All Emulators",
+            "configurations": ["android_tablet", "android_phone"]
+        }
+    ]
+}
